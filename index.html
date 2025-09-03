@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Code Crack.C</title>
+  <style>
+    /* Basic styling */
+    body {
+      background-color: burlywood;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .logo {
+      font-size: 200%;
+      font-weight: bold;
+      color: burlywood;
+    }
+
+    .navbar a {
+      margin-left: 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .navbar a:hover{
+        color: #290202;
+    }
+
+
+    /* Centered form box */
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .form-box {
+      background-color: wheat;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      max-width: 400px;
+      width: 130%;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .btn {
+      padding: 5px;
+      width: 30%;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn-login {
+      background-color: #290202;
+      color: white;
+    }
+
+    .btn-login:hover {
+      background-color: #4e180b;
+    }
+
+    .btn-new {
+      background-color: #4e180b;
+      color:white;
+    }
+
+    .btn-new:hover {
+      background-color: #290202;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <div class="navbar">
+     <div class="logo">Code Crack.<span style="color:#000"size="5">C</span></div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Programs</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Login Form -->
+  <div class="form-container">
+    <div class="form-box">
+      <h2>Login To Code Crack.C</h2>
+      <form>
+        <label for="code">Suc_Code:</label>
+        <input type="number" id="code" name="code" placeholder="Enter Suc_Code" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        
+        <div class="button-group">
+          <button type="submit" class="btn btn-login" onclick="document.location='students.html'">Login</button>
+          <a href="register.html" class="btn btn-new" style="text-align: center; line-height: 36px;">New User</a>
+        </div>
+         <marquee style="color:#290202; border-bottom: 1px solid; size: 20px;"><br>
+   <h4>LOG IN TO CODE CRACK.C </h4>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
